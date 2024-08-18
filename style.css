@@ -6,13 +6,17 @@
     font-family: sans-serif;
 }
 body{
-    background-image: url(dark_city.webp);
+  /*  background-image: url(/dark_city.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    */
+    background: linear-gradient(17deg, rgba(144,29,0,1) 27%, rgba(15,14,14,0.9884746134782038) 77%);
     padding: 0 0rem;
-    backdrop-filter: blur(80px);
+   /* backdrop-filter: blur(80px);*/
     z-index: -999;
+    width: 100%;
+    min-height: 100vh;
 }
 
 
@@ -22,14 +26,14 @@ body{
     align-items: center;
     width: 100%;
     height: 10vh;
-    
-    background: radial-gradient(circle, rgba(4, 84, 183, 0.988) 6%, rgba(20, 20, 20, 0.907) 100%);
+    background: radial-gradient(circle, rgba(144,29,0,1) 14%, rgba(15,14,14,0.9884746134782038) 74%);
     border-radius: 5px;
 }
 .title1 .titelText{
     text-decoration: none;
     font-size: 2rem;
     color: rgb(255, 255, 255);
+    text-align: center;
     text-transform: uppercase;
 }
 
